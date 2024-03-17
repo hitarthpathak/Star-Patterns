@@ -1,0 +1,50 @@
+* {
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-box {
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 2px dashed black;
+    box-sizing: border-box;
+    height: 20%;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p {
+    margin: 3px;
+}
+
+#img-box {
+    border: 2px dotted black;
+    height: 50vh;
+    margin: 5px 0px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
